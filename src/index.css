@@ -1,0 +1,9 @@
+/* Import Tailwind's base styles, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add a subtle background color to the whole page body */
+body {
+  @apply bg-gray-100;
+}
